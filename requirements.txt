@@ -1,1 +1,8 @@
-
+asyncio
+browser_use
+requests
+airtable
+langchain_openai
+langchain_google_genai
+pdfplumber
+gradio
