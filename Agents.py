@@ -170,7 +170,7 @@ def generate_tailored_resumes_for_new_records(resume_filename,prompt):
 
 async def start_process(resume_filename, job_file,prompt):
     """Starts the process of parsing job profiles and generating tailored resumes."""
-    # await parse_job_profiles(job_file)
+    await parse_job_profiles(job_file)
     generate_tailored_resumes_for_new_records(resume_filename,prompt)
     return "Process complete!"
 # Gradio Dashboard
