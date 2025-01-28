@@ -6,3 +6,5 @@ langchain_openai
 langchain_google_genai
 pdfplumber
 gradio
+pyairtable
+playwright
